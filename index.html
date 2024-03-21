@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Divisas</title>
+    <link href="./img/dolar.jpg" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="imagen-div">
+    </div>
+    
+    <div class="texto-div">
+        <h1>Conversor de divisas</h1>
+
+        <h2 class="titulo-fecha-base"></h2>
+        
+        <div id="inputs-datos">
+            <label for="#fecha-elegida">Elija una fecha</label>
+            <input type="date" id="fecha-elegida">
+            
+            <label for="#moneda-base">Elija una base</label>
+            <select id="moneda-base">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+            </select>
+        </div>
+        
+        <div id="listas-usadas">
+            <ul id="lista-monedas-nombres" class="oculto">
+            </ul>
+            
+            <ul id="lista-monedas">
+            </ul>
+            
+            <ul id="errores" class="oculto">
+            </ul>
+        </div>
+        
+        <button type="submit" id="boton-aceptar">Aceptar</button>
+        <button id="mostrar-monedas">Mostrar monedas</button>
+    </div>
+        
+        
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="src/main.js"></script>
+
+</body>
+</html>

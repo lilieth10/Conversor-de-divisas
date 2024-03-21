@@ -1,0 +1,85 @@
+body {
+    background-image: url('./img/dolar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Color de texto predeterminado */
+}
+
+.imagen-div {
+    background-image: url('./img/dolar.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    height: 100vh;
+    width: 100vw;
+}
+.texto-div {
+    /* Estilos para el contenedor de texto */
+    padding: 3em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-bottom: auto; /* Ajusta el margen inferior para mantener el contenedor hacia arriba */
+}
+
+
+h1 {
+    /* Estilos para el título principal */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    /* Estilos para el título secundario */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    /* Estilos para las etiquetas */
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="date"],
+select {
+    /* Estilos para los campos de entrada y select */
+    margin-top: 5px;
+    padding: 8px;
+    width: 50%;
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+}
+
+button {
+    /* Estilos para los botones */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    /* Estilos cuando el cursor está sobre el botón */
+    background-color: #0056b3; /* Cambio de color de fondo */
+}
+
+ul {
+    /* Estilos para las listas */
+    list-style-type: none;
+    padding: 0;
+}
+
+.oculto {
+    /* Estilos para elementos ocultos */
+    display: none;
+}
